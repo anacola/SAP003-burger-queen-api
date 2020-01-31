@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import ProductController from '../controllers/productController'
+import OrderController from '../Controllers/orderController'
 
 const router = Router()
-router.get('/', ProductController.getAll)
+router.get('/', OrderController.getAll)
 //router.post('/', AuthorController.addAuthor)
 //router.get('/:id', AuthorController.getAuthor)
 //router.put('/:id', AuthorController.updatedAuthor)
